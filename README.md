@@ -15,7 +15,7 @@ Tune. Every PID, slider and filter setting from the log header, laid out the Bet
 Details. A plain-text report of every number, ready to copy or share when you ask for help.
 Every number is labelled as measured from the log, read from the log header, or worked out from Betaflight's own source, so you always know where it came from.
 
-Setpoint never connects to your flight controller and needs no internet connection to analyse a log.
+Setpoint only connects to your flight controller to streamline the log download process and needs no internet connection to analyze a log.
 
 Get it
 Windows (10 or 11, x64): download Setpoint-windows-x64.exe from the latest release.
