@@ -27,5 +27,22 @@ The Pilot's Manual is built into the app: press F1 or click Manual. It covers se
 Support
 Questions, bugs and feature requests: inigo@scopecreepusa.com or the contact form at www.scopecreepusa.com.
 
-Licence
-Setpoint is licensed under the GNU General Public License v3. Source code is available on request via www.scopecreepusa.com.
+### Licence
+
+Setpoint is free software from ScopeCreep USA LLC, licensed under the GNU General Public License version 3 (GPL-3.0). Every release on this page has its source code attached as `Setpoint-X.Y.Z-source.zip`, right next to the downloads. Third-party parts and their licences are listed in the app under About › Third-party notices.
+
+The Setpoint name and icon are not covered by the GPL. If you change the code and share it, give it a different name. Setpoint is not affiliated with Betaflight.
+
+### Check your download (optional)
+
+Every release includes `SHA256SUMS.txt`, signed with our release key.
+
+Release key fingerprint: `21C2 0E2B C7BC C2C5 629D 46FB DF25 797B B8F9 DC0F`
+
+1. Import the key once: `gpg --import setpoint-release-key.asc`
+2. Check the signature: `gpg --verify SHA256SUMS.txt.asc SHA256SUMS.txt`. You should see "Good signature" and the fingerprint above.
+3. Check the file you downloaded:
+   - Linux: `sha256sum -c SHA256SUMS.txt --ignore-missing`
+   - Windows (PowerShell): `Get-FileHash .\Setpoint-windows-x64.exe -Algorithm SHA256`, then compare the result with the line for that file in `SHA256SUMS.txt`.
+
+If the signature or a checksum doesn't match, don't run the file. Let us know at inigo@scopecreepusa.com.
